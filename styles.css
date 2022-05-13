@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    background-color: hsl(217, 54%, 11%);
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+a{
+    
+}
+.container {
+    width: 350px;
+    height: 600px;
+    /*position: absolute;*/
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 0 5px 5px ;
+    margin-top: 13%;
+    margin-left:43%;
+    
+}
+.topcard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.view {
+    position:absolute;
+    top: 27.5%;
+    left: 43.8%;
+    width: 100%;
+    height: 100%;
+    max-width: 310px;
+    max-height: 310px;
+    border-radius: 10px;
+    background: hsla(180, 100%, 50%, 0.65);
+    opacity: 0;
+    transition: 0.7s;
+ 
+}
+.eye {
+    margin-top: 43%;
+    margin-left: 43%;
+}
+.view:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.nft-card p {
+    font-weight: 600;
+    
+    
+}
+.nft-card p:hover {
+    color: cyan;
+    cursor: pointer;
+}
+.content p{
+    color: hsl(215, 52%, 70%);
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.float-container {
+    display: flex;
+    
+}
+.eth .clock {
+    
+    align-items: center;
+    
+    
+}
+.eth{
+    margin-right: 125px;
+}
+.eth span {
+    color: cyan;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    font-size: bold;
+     
+}
+
+.clock span {
+    font-weight: 400;
+    color: hsl(215, 52%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.avatar {
+    width: 35px;
+    border: 1px solid hsl(215, 52%, 70%);
+    border-radius: 100%;
+    margin-top: -5px;
+}
+.creator p {
+    font-weight: 400;
+    float: right;
+    margin-top: -1px;
+    
+}
+.creator span {
+    font-weight: 600;
+    color: white;
+    margin-right: 60px;
+}   
+.creator span:hover {
+    color: cyan;
+
+}
